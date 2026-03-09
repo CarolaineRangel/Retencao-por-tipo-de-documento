@@ -25,6 +25,7 @@ ni​ = Número de indivíduos ainda em análise naquele tempo.
 Clientes que ainda não deram churn são considerados censurados e não afetam diretamente o declínio da curva.
 
 A curva ajuda a entender quanto tempo, em média, os clientes permanecem antes de dar churn.
+<img width="846" height="548" alt="image" src="https://github.com/user-attachments/assets/474b54f9-8d18-4c94-9f6f-878bb6c0730a" />
 
 image-20250403-191929.png
 Imagem 1: Curva de retenção - Kaplan-Meier Fitter (Todos os Clientes)
