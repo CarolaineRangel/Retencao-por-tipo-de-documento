@@ -13,7 +13,8 @@ Se o evento realmente aconteceu ou se os dados foram censurados (censura signifi
 
 A fórmula do Kaplan-Meier para a probabilidade acumulada de sobrevivência até um tempo t é:
 
-image-20250403-180651.png
+<img width="339" height="62" alt="image" src="https://github.com/user-attachments/assets/aa00d08f-d86c-48c1-8ad8-75d237556346" />
+
 Onde:
 
 S(t) = Probabilidade de sobrevivência no tempo t.
@@ -84,7 +85,8 @@ O modelo calcula a taxa de risco (hazard rate), que mede a probabilidade instant
 
 A equação do modelo é:
 
-image-20250403-184121.png
+<img width="388" height="51" alt="image" src="https://github.com/user-attachments/assets/7540ff77-fd3c-41eb-bd36-babcae8b0968" />
+
 Onde:
 
 h(t) = taxa de risco no tempo ttt.
@@ -109,7 +111,8 @@ Se β=0 → A variável não tem efeito significativo no tempo de sobrevivência
 
 Utilizando a variável explicativa como o tipo de documentos, temos:
 
-image-20250403-183109.png
+<img width="1408" height="131" alt="image" src="https://github.com/user-attachments/assets/8bb2b59c-fdc1-44bb-a456-3f53376cd35e" />
+
 CPF: Empresas com CPF (pessoa física) têm HR de 1.53 que significa 53% mais chance de churn do que empresas CNPJ, porém o IC 95% do HR é 1.48 a 1.60 mostra que estamos 95% confiantes de que o verdadeiro aumento do risco está entre 48% e 60%.
 
 Unidentified: Empresas com document_type = unidentified têm HR de 1.90 que significa  90% mais chance de churn do que CNPJ, porém o IC 95% do HR (1.71 a 2.11) indica que o verdadeiro efeito está entre 71% e 111% de aumento no risco.
@@ -126,7 +129,8 @@ Clientes com CPF (Verde): Possuem uma retenção mais baixa em relação ao CNPJ
 
 Clientes ‘Unidentified’ (Azul): Parece ter uma retenção intermediária, mas com grande incerteza (região sombreada larga), possivelmente devido a um número menor de dados nesse grupo.
 
-image-20250404-142039.png
+<img width="846" height="548" alt="image" src="https://github.com/user-attachments/assets/dc8c405e-da4b-4fae-9eb9-ab675a584fd4" />
+
 Imagem 2: Curva de retenção - Kaplan-Meier Fitter (Clientes ICP)
  Teste log-rank 
 CPF vs CNPJ
@@ -168,7 +172,8 @@ p < 0.005 → O efeito também é significativo.
 
 IC 95% do HR: (1.64 – 4.25) → A incerteza é maior do que para CPF, mas ainda confiável.
 
-image-20250404-142803.png
+<img width="1403" height="111" alt="image" src="https://github.com/user-attachments/assets/a7613075-0fe6-4753-97d3-63f28ddfe0c1" />
+
 Comparação todos os clientes e clientes ICP
 Observamos uma tendência consistente entre os dois grupos analisados:
 
